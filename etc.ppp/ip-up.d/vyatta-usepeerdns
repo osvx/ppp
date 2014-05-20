@@ -12,7 +12,7 @@ device=`echo "$6"|awk '{ print $1 }'`
 # any new interfaces using ppp in CLI will have to be passed
 # using ipparam and have to add themselves here
 case "$device"X in
- ml* | wan* | pppoa* | pppoe* | wlm* );;
+ ml* | wan* | pppoa* | pppoe* | wlm* | pptpc* );;
  * ) 
     logger -p debug -t "vyatta-usepeerdns" \
     Invalid interface $device to update resolv.conf on link up
