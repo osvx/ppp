@@ -1,3 +1,9 @@
+vyatta-ppp (2.4.4rel-8+osvx1+projectx1) unstable; urgency=medium
+
+  * Added PPTP patch
+
+ -- Valentin Yakovenkov <yakovenkov@gmail.com>  Mon, 02 Jun 2014 11:59:21 +0400
+
 vyatta-ppp (2.4.4rel-8+vyos1+helium1) unstable; urgency=low
 
   * New branch
